@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gurajada', sans-serif;
+  background: url('background.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(Tumblr.jpg);
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 320px;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  text-align: left;
+  font-size: 18px;
+}
+
+input {
+  width: 93.5%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(105, 106, 145, 0.645);
+  color: lightgray;
+}
+.btn {
+  background-color: #7686c9;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.login-text {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-text a {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.login-text a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.login-text a:visited {
+  color: white;
+}
+
+.login-text a:active {
+  color: white;
+}

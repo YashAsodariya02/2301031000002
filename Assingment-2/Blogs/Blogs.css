@@ -1,0 +1,92 @@
+/* Reset and General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Full-Screen Background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('Blogs-back-ground.png') no-repeat center center/cover;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 400px;
+  text-align: left;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+/* Content Styling */
+.content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content h2 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.content p, .content ul {
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.content ul li {
+  margin: 8px 0;
+}
+
+/* Closing Text */
+.closing {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* YouTube Button */
+.youtube-info {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.youtube-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  transition: 0.3s;
+}
+
+.youtube-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
